@@ -39,6 +39,8 @@ html, body {
 .markdown h3 {
     color: var(--accent-light);
     /* font-weight: bold; */
+    font-size: 1.2em;
+    margin-top: 2.2em;
 }
 
 .markdown table tr:nth-child(2n) {
@@ -157,4 +159,8 @@ pre code.hljs {
 }
 .hljs-comment {
     color: var(--text-light);
+}
+
+blockquote em {
+    color: #fb6767;
 }
